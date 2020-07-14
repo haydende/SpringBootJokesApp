@@ -9,7 +9,7 @@
     </parent>
     <groupId>haydende</groupId>
     <artifactId>spring-jokes-app</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-jokes-app</name>
     <description>Demo project for Spring Boot</description>
 
@@ -70,7 +70,7 @@
         <developerConnection>
             scm:git:git@github.com:haydende/SpringBootJokesApp.git
         </developerConnection>
-      <tag>spring-jokes-app-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
