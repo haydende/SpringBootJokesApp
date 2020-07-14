@@ -68,7 +68,7 @@
 
     <scm>
         <developerConnection>
-            scm:git:git@github .com:haydende/SpringBootJokesApp.git
+            scm:git:git@github.com:haydende/SpringBootJokesApp.git
         </developerConnection>
       <tag>spring-jokes-app-0.0.1</tag>
   </scm>
