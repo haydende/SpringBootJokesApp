@@ -20,6 +20,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.5.3</version>
+        </dependency>
+
+        <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>chuck-norris-for-actuator</artifactId>
             <version>0.0.2</version>
@@ -53,7 +59,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+            </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>
+            scm:git:git@github .com:haydende/SpringBootJokesApp.git
+        </developerConnection>
+    </scm>
 
 </project>
